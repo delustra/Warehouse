@@ -1233,3 +1233,77 @@ Continuing with the rename may require changes to fix references in code or proj
 [2022.10.24-06.45.04:998][881]LogContentValidation: Display: Validating ObjectRedirector /Game/NewMap.NewMap
 [2022.10.24-06.45.04:998][881]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
 [2022.10.24-06.45.04:998][881]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/WarehouseMap_BuiltData.WarehouseMap_BuiltData
+[2022.10.24-06.50.37:399][936]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.24-06.50.37:410][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.24-06.50.37:410][936]PIE: New page: PIE session: WarehouseMap (24 Oct 2022, 12:50:37)
+[2022.10.24-06.50.37:436][936]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_WarehouseMap
+[2022.10.24-06.50.37:441][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004787s)
+[2022.10.24-06.50.37:441][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/WarehouseMap.WarehouseMap to /Game/UEDPIE_0_WarehouseMap.WarehouseMap (0.004874s)
+[2022.10.24-06.50.37:441][936]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.24-06.50.37:441][936]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.24-06.50.37:441][936]LogAIModule: Creating AISystem for world WarehouseMap
+[2022.10.24-06.50.37:442][936]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2022.10.24-06.50.37:462][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.10.24-06.50.37:470][936]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.10.24-06.50.37:470][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.24-06.50.37:470][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.24-06.50.37:470][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.24-06.50.37:470][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.24-06.50.37:470][936]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.24-06.50.37:470][936]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.24-06.50.37:470][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.24-06.50.37:470][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.24-06.50.37:471][936]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.24-06.50.37:471][936]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.24-06.50.37:471][936]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.24-06.50.37:473][936]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.24-06.50.37:511][936]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.10.24-06.50.37:511][936]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.24-06.50.37:511][936]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.24-06.50.37:511][936]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.24-06.50.37:512][936]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.10.24-06.50.37:512][936]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.10.24-06.50.37:513][936]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.10.24-06.50.37:513][936]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.10.24-06.50.37:513][936]LogInit: FAudioDevice initialized.
+[2022.10.24-06.50.37:513][936]LogAudio: Display: Audio Device (ID: 7) registered with world 'WarehouseMap'.
+[2022.10.24-06.50.37:523][936]LogLoad: Game class is 'GameModeBase'
+[2022.10.24-06.50.37:524][936]LogWorld: Bringing World /Game/UEDPIE_0_WarehouseMap.WarehouseMap up for play (max tick rate 0) at 2022.10.24-09.50.37
+[2022.10.24-06.50.37:524][936]LogWorld: Bringing up level for play took: 0.000684
+[2022.10.24-06.50.37:526][936]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2022.10.24-06.50.37:527][936]PIE: Server logged in
+[2022.10.24-06.50.37:528][936]PIE: Play in editor total start time 0.117 seconds.
+[2022.10.24-06.50.40:977][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.24-06.50.40:977][328]LogWorld: BeginTearingDown for /Game/UEDPIE_0_WarehouseMap
+[2022.10.24-06.50.40:977][328]LogWorld: UWorld::CleanupWorld for WarehouseMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.24-06.50.40:977][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.24-06.50.40:989][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.24-06.50.40:993][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.24-06.50.41:010][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.24-06.50.41:010][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.24-06.50.41:012][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.24-06.50.41:018][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.10.24-06.50.41:071][329]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.10.24-06.50.58:775][412]Cmd: TRANSACTION UNDO
+[2022.10.24-06.50.58:775][412]LogEditorTransaction: Undo Edit X
+[2022.10.24-06.50.59:324][434]Cmd: TRANSACTION UNDO
+[2022.10.24-06.50.59:324][434]LogEditorTransaction: Undo Edit X
+[2022.10.24-06.50.59:849][488]Cmd: TRANSACTION UNDO
+[2022.10.24-06.50.59:849][488]LogEditorTransaction: Undo Edit X
+[2022.10.24-06.51.00:990][616]Cmd: TRANSACTION UNDO
+[2022.10.24-06.51.00:990][616]LogEditorTransaction: Undo Edit X
+[2022.10.24-06.51.16:647][459]LogSlate: Window 'Select Path' being destroyed
+[2022.10.24-06.51.50:162][307]Cmd: DELETE
+[2022.10.24-06.51.50:162][307]Cmd: ACTOR DELETE
+[2022.10.24-06.51.50:164][307]LogEditorActor: Deleted Actor: Brush
+[2022.10.24-06.51.50:184][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.10.24-06.51.50:204][307]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2022.10.24-06.51.57:487][133]Cmd: DUPLICATE
+[2022.10.24-06.51.57:487][133]Cmd: ACTOR DUPLICATE
+[2022.10.24-06.52.40:946][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WarehouseMap" FILE="../../../../../projects/Warehouse/Content/WarehouseMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.24-06.52.40:966][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.10.24-06.52.40:985][211]LogSavePackage: Moving output files for package: /Game/WarehouseMap
+[2022.10.24-06.52.40:985][211]LogSavePackage: Moving '../../../../../projects/Warehouse/Saved/WarehouseMapBDC6AB564722BCB3F3912CB8A6177810.tmp' to '../../../../../projects/Warehouse/Content/WarehouseMap.umap'
+[2022.10.24-06.52.40:996][211]LogFileHelpers: No new changes to save!
+[2022.10.24-06.52.41:007][211]AssetCheck: New page: Asset Save: WarehouseMap
+[2022.10.24-06.52.41:007][211]LogContentValidation: Display: Validating World /Game/WarehouseMap.WarehouseMap
